@@ -24,15 +24,6 @@ header{
     height: 100vh;
 }
 
-h2{
-    animation: title 2s linear infinite;
-}
-
-@keyframes title {
-    40%{
-       /* color: red; */
-    }
-}
     button{
         position: absolute;
         left: 50%;
@@ -44,7 +35,7 @@ h2{
         background-color: black;
         border-radius: 10px;
         border: none;
-        box-shadow: 2px 1px 5px;
+        box-shadow: 2px 1px 5px black;
         font-size: 20px;
         font-family: cursive;
         cursor: pointer;
